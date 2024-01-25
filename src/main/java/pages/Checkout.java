@@ -83,7 +83,7 @@ public class Checkout {
         cashOnDelivery.click();
     }
     public String getTotals(){
-        WebActions.waitUntilElementDisplayed(totals,5);
+        WebActions.waitUntilElementDisplayed(totals,60);
         return totals.innerText();
     }
     public String getPaymentMethod(){

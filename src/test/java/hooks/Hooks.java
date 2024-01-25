@@ -20,7 +20,6 @@ public class Hooks {
         driverFactory = new DriverFactory();
         page = driverFactory.initDriver(browserName);
         page = DriverFactory.getPage();
-        page.setDefaultTimeout(60000);
     }
 
     @After(order = 0)

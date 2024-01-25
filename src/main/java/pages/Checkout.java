@@ -1,6 +1,8 @@
 package pages;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import utils.WebActions;
+
 public class Checkout {
     private Page page;
     private final Locator cashOnDelivery;
@@ -81,6 +83,7 @@ public class Checkout {
         cashOnDelivery.click();
     }
     public String getTotals(){
+        WebActions.waitUntilElementDisplayed(totals,5);
         return totals.innerText();
     }
     public String getPaymentMethod(){

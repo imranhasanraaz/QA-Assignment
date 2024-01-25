@@ -14,6 +14,7 @@ public class DriverFactory {
     }
 
     public static void setNewTab(Page page1) {
+        page1.setDefaultTimeout(Integer.parseInt(getProperty("timeout")));
         threadLocalDriver.set(page1);
     }
 

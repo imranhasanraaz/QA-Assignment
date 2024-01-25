@@ -1,15 +1,15 @@
 ## Assigment of QA Automation Engineer at BrainStormForce
 
 # Content
-- [Introduction](https://github.com/imranhasanraaz/wp_darkmode_automation/blob/main/README.md#introduction)
-- [Technologies used in this project](https://github.com/imranhasanraaz/wp_darkmode_automation/blob/main/README.md#technologies-used-in-this-project)
-- [To Run This Project](https://github.com/imranhasanraaz/wp_darkmode_automation/blob/main/README.md#to-run-this-project)
-- [Demo Report](https://github.com/imranhasanraaz/wp_darkmode_automation/blob/main/README.md#to-run-this-project)
+- [Introduction](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#introduction)
+- [Technologies used in this project](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#technologies-used-in-this-project)
+- [To Run This Project](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#to-run-this-project)
+- [Demo Report](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#demo-report)
 
 # Introduction
 - I have completed this using Playwright and Cucumber in Java environment. You will find all the test cases in test/resources/features directory. I have also added github [workflows](https://github.com/imranhasanraaz/BrainStormForce/actions) in this project, After After Completing the run I will generate extend report with all the details.
 This project will support parralel run. You can shange the number of Thread from [pom.xml](https://github.com/imranhasanraaz/BrainStormForce/blob/main/pom.xml) file. 
-![Checkout Video Overview](https://app.claap.io/lexigra/c-2ECn5lHQUB-EIrmnrfRZK43)
+[Checkout Video Overview](https://app.claap.io/lexigra/c-2ECn5lHQUB-EIrmnrfRZK43)
 
 **Features of this test suite**
 - Easy to configure just clone and change in config file

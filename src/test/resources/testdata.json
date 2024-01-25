@@ -1,0 +1,62 @@
+{
+  "homepage_title": "Home - Brandstore",
+  "successful_subscription_message": "Thanks for signing up for the newsletter! We'll be in touch soon.",
+  "searchData": {
+    "searchKeyword": "jeans",
+    "searchResults": "Showing all 7 results"
+  },
+  "particularProduct": {
+    "productName": "Dark Brown Jeans",
+    "productURL": "https://websitedemos.net/brandstore-02/product/dark-brown-jeans/",
+    "productDescription": "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.",
+    "productPrice": "$150.00",
+    "checkoutQuantity": "5",
+    "subtotal" : "$750.00"
+  },
+  "filterData": {
+    "minimumValue": "100",
+    "maximumValue": "200",
+    "filterResults": "Showing 1–12 of 24 results"
+  },
+  "blackHoodie": {
+    "productName": "Black Hoodie",
+    "productURL": "https://websitedemos.net/brandstore-02/product/black-hoodie/",
+    "productDescription": "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.",
+    "productPrice": "$150.00",
+    "checkoutQuantity": "1",
+    "subtotal" : "$150.00"
+  },
+  "cartTotals" : {
+    "subTotals" : "$900.00",
+    "totals" : "$900.00"
+  },
+  "ChangeQuantity" : {
+    "quantity" : "4",
+    "subTotals" : "$750.00",
+    "totals" : "$750.00"
+  },
+  "coupon": {
+    "couponCode" : "TRYNEW123",
+    "negativeResponse" : "does not exist!"
+  },
+  "billingAddress" : {
+    "firstName" : "Imran",
+    "lastName" : "Hasan",
+    "country" : "India",
+    "street" : "xyz",
+    "city" : "Mumbai",
+    "state" : "Maharashtra",
+    "PIN" : "400001",
+    "phone" : "+8801734567808",
+    "email" : "xyz@gmail.com",
+    "orderNote" : "Automation Test–Imran"
+  },
+  "paymentMethod" : "Cash on delivery",
+  "contactUs": {
+    "name" : "Imran Hasan",
+    "subject" : "Automation test",
+    "email" : "imran@wppool.dev",
+    "message" : "Hello BrainStormForce",
+    "confirmationMessage" : "Thanks for contacting us! We will be in touch with you shortly."
+  }
+}

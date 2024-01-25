@@ -44,6 +44,7 @@ public class DriverFactory {
         Page page = context.newPage();
         threadLocalDriver.set(page);
         threadLocalContext.set(context);
+        page.setDefaultTimeout(Integer.parseInt(getProperty("timeout")));
         return page;
     }
 

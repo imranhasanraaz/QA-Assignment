@@ -13,7 +13,6 @@ target/
 *.ipr
 target
 test-output-thread
-reports*
 ### Eclipse ###
 .apt_generated
 .classpath

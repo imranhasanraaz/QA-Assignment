@@ -5,7 +5,7 @@
 - [Technologies used in this project](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#technologies-used-in-this-project)
 - [To Run This Project](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#to-run-this-project)
 - [Demo Report](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#demo-report)
--[Manual Test Cases of https://qa.rtcamp.net/](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#Test-Case)
+- [Manual Test Cases of https://qa.rtcamp.net/](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#Test-Case)
 
 # Introduction
 - I have completed this using Playwright and Cucumber in Java environment. You will find all the test cases in test/resources/features directory. I have also added github [workflows](https://github.com/imranhasanraaz/BrainStormForce/actions) in this project, After After Completing the run I will generate extend report with all the details.

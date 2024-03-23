@@ -1,4 +1,4 @@
-## Assigment of QA Automation Engineer at BrainStormForce
+## Assigment of QA Engineer
 
 # Content
 - [Introduction](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#introduction)

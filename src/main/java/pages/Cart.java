@@ -22,14 +22,16 @@ public class Cart {
     private final Locator applyCoupon;
     private final Locator checkout;
     private final Locator fullTable;
+    private final Locator negativeMsg;
     public Cart(Page page){
         this.page = page;
+        this.negativeMsg = page.locator("//ul[@class='woocommerce-error']");
         this.subTotal = page.locator("//tr[@class='cart-subtotal']//bdi[1]");
         this.totals = page.locator("//tr[@class='order-total']//bdi[1]");
         this.quantityOfDarkBrownJeans = page.locator("//input[@name='cart[0bb4aec1710521c12ee76289d9440817][qty]']");
         this.updateCart = page.locator("//button[@name='update_cart']");
         this.couponField = page.locator("//input[@id='coupon_code']");
-        this.contentUpdatedMessage = page.locator("//div[@class='wc-block-components-notice-banner__content']");
+        this.contentUpdatedMessage = page.locator("//div[@class='woocommerce-message']");
         this.checkout = page.locator("//div[@class='wc-proceed-to-checkout']");
         this.applyCoupon = page.locator("//button[@name='apply_coupon']");
         this.fullTable = page.locator("//form[@class='woocommerce-cart-form']");
@@ -90,6 +92,6 @@ public class Cart {
     }
     public String getCouponUpdatedMessage(){
         page.waitForTimeout(3000);
-        return  contentUpdatedMessage.innerText();
+        return  negativeMsg.innerText();
     }
 }

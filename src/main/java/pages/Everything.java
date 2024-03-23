@@ -41,7 +41,7 @@ public class Everything {
         this.productDescription = page.locator("//div[@class='woocommerce-product-details__short-description']/p");
         this.quantity = page.locator("//input[@class='input-text qty text']");
         this.addToCart = page.locator("//button[@name='add-to-cart']");
-        this.afterAddedCartMessage = page.locator("//div[@class='wc-block-components-notice-banner__content']");
+        this.afterAddedCartMessage = page.locator("//div[@class='woocommerce-message']");
         this.filterButton = page.locator("//button[normalize-space()='Filter']");
         this.minPrice = page.locator("//span[@class='ui-slider-handle ui-corner-all ui-state-default' and contains(@style, 'left: 0%')]");
         this.maxPrice = page.locator("//span[@class='ui-slider-handle ui-corner-all ui-state-default' and contains(@style, 'left: 100%')]");
@@ -49,7 +49,7 @@ public class Everything {
         this.pricetoMax = page.locator("//span[@class='to']");
         this.filterResults = page.locator("//p[@class='woocommerce-result-count']");
         this.blackHoodie = page.locator("//h2[normalize-space()='Black Hoodie']");
-        this.viewCart = page.locator("//div[@class='wc-block-components-notice-banner__content']//a[@class='button wc-forward'][normalize-space()='View cart']");
+        this.viewCart = page.locator("//div[@role='alert']//a[@class='button wc-forward'][normalize-space()='View cart']");
     }
 
     public void setSearchKeyword(String keyword) {

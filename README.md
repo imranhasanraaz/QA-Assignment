@@ -5,10 +5,11 @@
 - [Technologies used in this project](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#technologies-used-in-this-project)
 - [To Run This Project](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#to-run-this-project)
 - [Demo Report](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#demo-report)
+-[Manual Test Cases of https://qa.rtcamp.net/](https://github.com/imranhasanraaz/BrainStormForce?tab=readme-ov-file#Test-Case)
 
 # Introduction
 - I have completed this using Playwright and Cucumber in Java environment. You will find all the test cases in test/resources/features directory. I have also added github [workflows](https://github.com/imranhasanraaz/BrainStormForce/actions) in this project, After After Completing the run I will generate extend report with all the details.
-This project will support parralel run. You can shange the number of Thread from [pom.xml](https://github.com/imranhasanraaz/BrainStormForce/blob/main/pom.xml) file. 
+This project will support parralel run. You can shange the number of Thread from [pom.xml](https://github.com/imranhasanraaz/BrainStormForce/blob/main/pom.xml) file.
 
 [Checkout Video Overview](https://app.claap.io/lexigra/c-2ECn5lHQUB-EIrmnrfRZK43)
 
@@ -50,3 +51,5 @@ This project will support parralel run. You can shange the number of Thread from
 ![image](https://github.com/imranhasanraaz/BrainStormForce/assets/110620143/a9b192d9-54cd-466b-a6cb-512fddf3b707)
 ![image](https://github.com/imranhasanraaz/BrainStormForce/assets/110620143/a411d787-e8c4-4979-adb5-805bed7f5511)
 
+# Test Case
+Go to this google shit [Link](https://docs.google.com/spreadsheets/d/1sqr0bBRLMbYgvwgaS_rRCRS6wHz19Fa2V46cltPdbY8/edit#gid=0)

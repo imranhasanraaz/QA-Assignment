@@ -54,8 +54,8 @@ public class Checkout {
     public void setStreet(String keyword){
         street.fill(keyword);
     }
-    public void setCity(String keyword){
-        city.fill(keyword);
+    public void setCity(String password){
+        city.fill(password);
     }
     public void setState(String keyword){
         state.click();
